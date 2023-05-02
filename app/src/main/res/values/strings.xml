@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pay Per Parking</string>
+    <string name="nikhil_dasar">Nikhil Dasar</string>
+    <string name="profile_email">postbox1508@gmail.com</string>
+    <string name="bookings">Bookings</string>
+    <string name="favorites">favorites</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About App</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="favorites_fragment">Favorites Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

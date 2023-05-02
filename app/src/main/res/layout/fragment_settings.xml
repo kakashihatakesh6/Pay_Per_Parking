@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.SettingsFragment">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profileimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:layout_below="@+id/imgProfile"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+       />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/txtUserName"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:layout_below="@id/view1"
+        android:layout_margin="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl1"
+            android:layout_marginTop="10dp"
+            android:elevation="0dp">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:layout_marginStart="70dp"
+                />
+
+            <TextView
+                android:id="@+id/txtUsername2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="username"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_toRightOf="@+id/txt1"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl2"
+            android:layout_marginTop="10dp"
+            android:elevation="0dp"
+            android:layout_below="@+id/rl1">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email : "
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:layout_marginStart="70dp"
+                />
+
+            <TextView
+                android:id="@+id/txtUserEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_toRightOf="@+id/txt2"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl3"
+            android:layout_marginTop="10dp"
+            android:elevation="0dp"
+            android:layout_below="@+id/rl2">
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : "
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:layout_marginStart="70dp"
+                />
+
+            <TextView
+                android:id="@+id/txtUserPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="phone"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:layout_toRightOf="@+id/txt3"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

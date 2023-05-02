@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "703585835040",
+    "project_id": "pay-parking-7d8ba",
+    "storage_bucket": "pay-parking-7d8ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703585835040:android:577255d9ef7cc4d8300445",
+        "android_client_info": {
+          "package_name": "com.example.payparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703585835040-tpc3pe6to30h453n4jjj5qgahhijo65b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payparking",
+            "certificate_hash": "d953264c6bd79e55e797a791244f53aeebce3f7e"
+          }
+        },
+        {
+          "client_id": "703585835040-9mq9efpgvrd2p44uho4aqjptsrctehmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArcM4ee4I2T8BGIaqK9ubKIAjX1NEnlLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703585835040-9mq9efpgvrd2p44uho4aqjptsrctehmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

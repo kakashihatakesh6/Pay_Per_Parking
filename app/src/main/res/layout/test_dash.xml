@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:background="@color/color_primary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/roboto"
+            android:padding="10dp"
+            android:text="Dashboard"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dash_white">
+
+        <RelativeLayout
+            android:id="@+id/rellDashItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/background_top_white"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgDashItem1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_share_location_24" />
+
+            <TextView
+                android:id="@+id/txtDashItem1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDashItem1"
+                android:text="Parking Spots"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <!--ITEM 2-->
+        <RelativeLayout
+            android:id="@+id/rellDashItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/rellDashItem1"
+            android:background="@drawable/background_top_white"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgDashItem2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_share_location_24" />
+
+            <TextView
+                android:id="@+id/txtDashItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDashItem2"
+                android:text="Parking Spots"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <!--ITEM 3-->
+
+        <RelativeLayout
+            android:id="@+id/rellDashItem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellDashItem1"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/background_top_white"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgDashItem3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_share_location_24" />
+
+            <TextView
+                android:id="@+id/txtDashItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDashItem3"
+                android:text="Parking Spots"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <!--ITEM 4-->
+
+        <RelativeLayout
+            android:id="@+id/rellDashItem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellDashItem2"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/rellDashItem3"
+            android:background="@drawable/background_top_white"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgDashItem4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_share_location_24" />
+
+            <TextView
+                android:id="@+id/txtDashItem4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDashItem4"
+                android:text="Parking Spots"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <!--  ITEM 5-->
+
+        <RelativeLayout
+            android:id="@+id/rellDashItem5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellDashItem3"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/background_top_white"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgDashItem5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_share_location_24" />
+
+            <TextView
+                android:id="@+id/txtDashItem5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDashItem5"
+                android:text="Parking Spots"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <!--ITEM 6-->
+
+        <RelativeLayout
+            android:id="@+id/rellDashItem6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellDashItem4"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/rellDashItem5"
+            android:background="@drawable/background_top_white"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgDashItem6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_share_location_24" />
+
+            <TextView
+                android:id="@+id/txtDashItem6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDashItem6"
+                android:text="Parking Spots"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <!-- ITEM 7-->
+
+        <RelativeLayout
+            android:id="@+id/rellDashItem7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellDashItem5"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/background_top_white"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgDashItem7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_share_location_24" />
+
+            <TextView
+                android:id="@+id/txtDashItem7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDashItem7"
+                android:text="Parking Spots"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <!--ITEM 8-->
+
+        <RelativeLayout
+            android:id="@+id/rellDashItem8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rellDashItem6"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/rellDashItem7"
+            android:background="@drawable/background_top_white"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imgDashItem8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_baseline_share_location_24" />
+
+            <TextView
+                android:id="@+id/txtDashItem8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDashItem8"
+                android:text="Parking Spots"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

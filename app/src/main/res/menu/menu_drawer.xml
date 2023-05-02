@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/ic_baseline_design_services_24"
+            android:title="Services" />
+
+        <item
+            android:id="@+id/discover"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Discover" />
+
+        <item
+            android:id="@+id/myVehicle"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="My Vehicle" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+
+    </group>
+
+    <item android:title="Sharing">
+
+        <menu>
+
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_24"/>
+
+            <item
+                android:id="@+id/refer"
+                android:title="Refer"
+                android:icon="@drawable/ic_baseline_refer_24"/>
+
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Authentication">
+
+        <menu>
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Logout" />
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

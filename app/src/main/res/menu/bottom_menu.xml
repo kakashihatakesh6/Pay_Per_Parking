@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/locateMenuItem"
+        android:title="Locate"
+        android:icon="@drawable/ic_baseline_share_location_24" />
+
+    <item
+        android:id="@+id/myParkingMenuItem"
+        android:title="My Parking"
+        android:icon="@drawable/ic_myparking"/>
+
+    <item
+        android:id="@+id/accountMenuItem"
+        android:title="Account"
+        android:icon="@drawable/ic_account"/>
+
+
+</menu>
